@@ -6,5 +6,5 @@ of social media profile. The project is aimed to have different analytics based 
  2. The second part is going to be the node part of the project which is going to provide our angular with api and REST api connections to social media etc to show the feed of the project, the node repository can be found on github at [Word-Cloud-nodeService](https://github.com/jungeKatz/Word-Cloud-nodeService "node service").
  3. The third part of the project is the python part that will be used for analysing the social media profile posts and telling the bias [Python-analysis-service](https://github.com/jungeKatz/Python-analysis-service "python engine").
 
-Aditionally Will also try to implement docker and will keep on updating this README as the project proceeds further.
+Aditionally I Will also try to implement docker and will keep on updating this README as the project proceeds further.
 
