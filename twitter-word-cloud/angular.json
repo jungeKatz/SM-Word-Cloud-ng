@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "twitter-word-cloud"
+    }
+  },
+  "defaultProject": "twitter-word-cloud",
+  "cli": {
+    "analytics": false
+  }
 }
