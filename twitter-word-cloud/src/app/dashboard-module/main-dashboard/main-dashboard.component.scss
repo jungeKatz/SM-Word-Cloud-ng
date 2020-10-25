@@ -10,13 +10,18 @@ body {
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
-  text-align: center;
-  background: white;
+  padding: 10px;
+  text-align: left;
+  background: #333333;
+
 }
 
-.header h1 {
-  font-size: 50px;
+.header h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", sans-serif;
+  color: #ffffff;
+  padding-left: 10px;
+  
 }
 
 /* Style the top navigation bar */
@@ -43,7 +48,7 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 75%;
 }
@@ -87,7 +92,8 @@ body {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
