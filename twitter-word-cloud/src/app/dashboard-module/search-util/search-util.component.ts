@@ -17,6 +17,7 @@ export class SearchUtilComponent implements OnInit {
     this.form = new FormGroup({
       noOfResults: new FormControl(''),
       needWord: new FormControl(''),
+      showTable: new FormControl(''),
       needPie: new FormControl(''),
     });
   }
