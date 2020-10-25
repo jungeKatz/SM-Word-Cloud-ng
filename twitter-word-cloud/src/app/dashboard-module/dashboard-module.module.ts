@@ -6,9 +6,10 @@ import { SidebarComponent } from './sidebar-component/sidebar-component.componen
 import { MainDashboardComponent } from './main-dashboard/main-dashboard.component';
 import { PolarAreaComponent } from './polar-area/polar-area.component';
 import { WordCloudComponent } from './word-cloud/word-cloud.component';
+import { SearchUtilComponent } from './search-util/search-util.component';
 
 @NgModule({
-  declarations: [SidebarComponent, MainDashboardComponent, PolarAreaComponent, WordCloudComponent],
+  declarations: [SidebarComponent, MainDashboardComponent, PolarAreaComponent, WordCloudComponent, SearchUtilComponent],
   imports: [CommonModule, DashboardModuleRoutingModule],
 })
 export class DashboardModule {}
