@@ -1,1 +1,19 @@
-<p>search-util works!</p>
+<form [formGroup]="form">
+    <div class="form-group">
+        <label for="noOfResults">Enter the number of results</label>
+        <input type="number" class="form-control" formControlName="noOfResults" />
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="needWord" formControlName="needWord" />
+            <label class="form-check-label" for="needWord">
+                Create Word Cloud
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="needPie" formControlName="needPie" disabled />
+            <label class="form-check-label" for="needPie">
+                Create Polar Area
+            </label>
+        </div>
+        <button type="button" class="btn btn-dark" (click)="onSubmit()">Generate Report</button>
+    </div>
+</form>
