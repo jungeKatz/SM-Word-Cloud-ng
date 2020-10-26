@@ -6,7 +6,7 @@ import { SidebarComponent } from './sidebar-component/sidebar-component.componen
 import { MainDashboardComponent } from './main-dashboard/main-dashboard.component';
 import { PolarAreaComponent } from './polar-area/polar-area.component';
 import { WordCloudComponent } from './word-cloud/word-cloud.component';
-import { SearchUtilComponent } from './search-util/search-util.component';
+import { SearchUtilComponent } from './main-dashboard/search-util/search-util.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
