@@ -11,6 +11,7 @@ import { MainDashboardComponent } from './main-dashboard/main-dashboard.componen
 import { PolarAreaComponent } from './polar-area/polar-area.component';
 import { WordCloudComponent } from './word-cloud/word-cloud.component';
 import { SearchUtilComponent } from './main-dashboard/search-util/search-util.component';
+import { TrendsComponent } from './main-dashboard/trends/trends.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SearchUtilComponent } from './main-dashboard/search-util/search-util.co
     PolarAreaComponent,
     WordCloudComponent,
     SearchUtilComponent,
+    TrendsComponent,
   ],
   imports: [
     CommonModule,
