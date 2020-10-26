@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TagCloudModule } from 'angular-tag-cloud-module';
 
 /*
  *Import Components After this
@@ -27,6 +28,7 @@ import { TrendsComponent } from './main-dashboard/trends/trends.component';
     DashboardModuleRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    TagCloudModule,
   ],
 })
 export class DashboardModule {}
