@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 import { environment } from '../../environments/environment';
-import { User } from '../models/users';
+import { User } from '@app/models/users';
 
 
 @Injectable({
@@ -10,5 +10,13 @@ import { User } from '../models/users';
 })
 export class UserService {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
+
+  // tslint:disable-next-line: typedef
+  getAll() {
+    return this.http.get<User[]>(`${environment.apiUrl}/users`);
+}
+
+
+
 }
