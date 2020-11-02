@@ -18,7 +18,9 @@ export class AuthenticationService {
     this.userSubject = new BehaviorSubject<User>(JSON.parse(localStorage.getItem('user')));
     this.user = this.userSubject.asObservable();
   }
-
+  public get userValue(): User {
+    return this.userSubject.value;
+}
 
     // tslint:disable-next-line: typedef
     login(username: string, password: string) {
