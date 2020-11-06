@@ -41,6 +41,7 @@ export class LoginComponentComponent implements OnInit {
     });
   }
 
+
   // tslint:disable-next-line: typedef
   get f() {
     return this.loginForm.controls;
@@ -70,5 +71,10 @@ export class LoginComponentComponent implements OnInit {
 
 
    // this.rtr.navigate(['/dashboard']);
+  }
+
+  goToTwitter(): void {
+
+    
   }
 }
